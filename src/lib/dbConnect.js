@@ -22,6 +22,7 @@ async function dbConnect() {
       bufferCommands: false,
     }
 
+    mongoose.set('strictQuery', false)
     const mongoUri = await getMongoUri()
     console.log(mongoUri)
     
