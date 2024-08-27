@@ -11,7 +11,7 @@ const Hours = () => {
     ];
 
     const today = new Date().toLocaleDateString('en-US', { weekday: 'long' });
-    console.log(today);
+    
     const todayHours = openHours.find(day => day.day === today);
     return (
         <div className="hours-container">
