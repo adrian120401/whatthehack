@@ -185,3 +185,12 @@ li {
 h1 {
   text-align: center;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hours-container {
+  text-align: center;
+}
